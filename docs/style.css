@@ -16,7 +16,7 @@ body {
 header {
     background-color: #333;	
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -25,11 +25,19 @@ header .logo h1 {
     font-size: 2rem;
 }
 
+.sim {
+    color: #2daae1; /* Azzurro per "Sim" */
+}
+
+.hub {
+    color: #f07d00; /* Arancione per "hub" */
+}
+
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
+    padding: 20;
 }
 
 nav ul li {
@@ -72,7 +80,6 @@ nav ul li a {
   margin-left: 2px; /* spazio tra il testo e l'immagine */
   vertical-align: middle;
 }
-
 
 /* Animazione di Sfondo */
 @keyframes stampaAnimata {
