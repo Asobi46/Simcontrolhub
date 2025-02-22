@@ -226,5 +226,24 @@ footer p {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+ /* CSS tasti menu */
+ 
+ .home-buttons a {
+    display: inline-block; 								/* Rende i link elemento inline-block */
+    transition: transform 0.3s ease, color 0.3s ease; 	/* Aggiunge transizione*/
+}
 
+.Home-button a:hover {
+    color: #2DAAE1; 									/* Cambia il colore del testo quando si passa sopra */
+    transform: scale(1.05); 							/* Ingrandisce leggermente l'elemento */
+}
 
+.products-button a:hover {
+    color: white; 
+    transform: scale(1.05); 
+}
+
+.Support-button a:hover {
+    color: #F07D00; 
+    transform: scale(1.05);
+}
