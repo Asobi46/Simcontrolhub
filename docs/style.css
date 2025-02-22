@@ -99,27 +99,35 @@ nav ul li a {
 
 /* Prodotti in evidenza */
 .evidenza h2{
-	margin-left: 30px;
-	margin-top: 30px;
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-bottom: -90px;
 	}
-	
+
+.margini{
+	margin-left:20px;
+	margin-right:20px;
+}
 .featured-products {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
     margin-top: 30px;
+	box-sizing:border-box;
+	width: 100%;
 }
 
 .product-item {
     background-color: #333333;
-    padding: 15px;
+    padding: 15px;				/* Altezza img con box top*/
     text-align: center;
     border: 1px solid #262626;
-    width: calc(33% - 20px); /* 3 colonne con spazio tra */
+    width: calc(33% - 20px); 	/* 3 colonne con spazio tra */
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+	margin-top: 30px;
 }
 
 .product-item:hover {
