@@ -130,7 +130,23 @@ nav ul li a {
 	margin-top: 30px;
 }
 
+.product-item-list {
+    background-color: #333333;
+    padding: 15px;				/* Altezza img con box top*/
+    text-align: center;
+    border: 1px solid #262626;
+    width: calc(50% - 20px); 	/* 2 colonne con spazio tra */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	margin-top: 30px;
+}
+
 .product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item-list:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -238,7 +254,7 @@ footer p {
     transform: scale(1.05); 							/* Ingrandisce leggermente l'elemento */
 }
 
-.products-button a:hover {
+.general-button a:hover {
     color: white; 
     transform: scale(1.05); 
 }
