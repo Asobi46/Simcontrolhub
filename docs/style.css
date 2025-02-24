@@ -69,15 +69,21 @@ nav ul li a {
 .hero p {
     font-size: 1.2rem;
 }
-.contatti h2 {
+.Support h2 {
   padding-top: 10px;
   height: 30px;
 }
 
-.contatti img {
+.Support img {
   width: 25px; /* imposta la larghezza dell'immagine */
   height: auto; /* per mantenere le proporzioni */
   margin-left: 2px; /* spazio tra il testo e l'immagine */
+  vertical-align: middle;
+}
+
+.Icons img {
+  width: 22px; /* imposta la larghezza dell'immagine */
+  margin-left: 50px; /* spazio tra il testo e l'immagine */
   vertical-align: middle;
 }
 
@@ -103,7 +109,12 @@ nav ul li a {
 	margin-top: 50px;
 	margin-bottom: -90px;
 	}
-
+/* Contatti */	
+.Contatti p{
+	margin-left: 50px;
+	margin-top: 200px;
+	font-size: 15px;
+	}
 .margini{
 	margin-left:20px;
 	margin-right:20px;
@@ -183,12 +194,12 @@ nav ul li a {
 }
 
 /* Footer */
-footer {
+.footer {
     text-align: center;
     padding: 20px;
     background-color: black;
     color: white;
-    margin-top: 190px;
+    margin-top: 230px;
 }
 
 footer p {
@@ -263,3 +274,4 @@ footer p {
     color: #F07D00; 
     transform: scale(1.05);
 }
+
